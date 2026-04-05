@@ -8,10 +8,16 @@ namespace RemoteLearning.GrandCircus
     {
         private static void Main()
         {
-            Arena arena = new Arena();
-
+            Arena arena = new Arena(); 
             Circus circus = new Circus(arena);
-            circus.Perform();
+            circus.animals.Add(new Elephant("Gigi","African Forest"));
+            circus.animals.Add(new Snake("Kai", "Cobra"));
+            circus.animals.Add(new Lion("King", "Savana Lion"));
+            circus.animals.Add(new Kangaroo("Dj", "Savana Kangaroo"));
+
+            arena.PresentCircus("BestOfCircus");
+            circus.Perform(arena,circus);
+            
 
             Pause();
         }
