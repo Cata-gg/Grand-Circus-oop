@@ -11,8 +11,7 @@ namespace RemoteLearning.GrandCircus
         public Kangaroo(string name,string speciesName) : base(name, speciesName){ }
         public override string MakeSound()
         {
-            string sound = base.MakeSound();
-            return sound + "Grrrr";
+            return "Grrrr";
         }
     }
 }

@@ -10,9 +10,8 @@ namespace RemoteLearning.GrandCircus
     {
         public Snake(string name, string speciesName) : base(name, speciesName) { }
         public override string MakeSound()
-        {
-            string sound = base.MakeSound();
-            return sound + "Ssssss";
+        { 
+            return "Ssssss";
         }
     }
 }

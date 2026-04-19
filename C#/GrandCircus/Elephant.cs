@@ -12,8 +12,7 @@ namespace RemoteLearning.GrandCircus
         
         public override string MakeSound()
         {
-            string sound = base.MakeSound();
-            return sound + "Barr";
+            return "Barr";
         }
 
     }

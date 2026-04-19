@@ -11,8 +11,7 @@ namespace RemoteLearning.GrandCircus
         public Lion(string  name, string speciesName) : base(name, speciesName) {}
         public override string MakeSound()
         {
-            string sound = base.MakeSound();
-            return sound + "Roar";
+            return "Roar";
         }
     }
 }
