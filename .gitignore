@@ -1,6 +1,7 @@
-.vs/
-[Bb]in/
-[Oo]bj/
-*.suo
+x64/
+Debug/
+Release/
+x86/
 *.user
-[Tt]est[Rr]esult*/
+*.suo
+.vs/

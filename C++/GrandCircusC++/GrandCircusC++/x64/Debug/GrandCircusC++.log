@@ -1,3 +1,10 @@
-﻿  GrandCircus.cpp
-C:\Code\Grand-Circus-oop\C++\GrandCircusC++\GrandCircusC++\GrandCircus.cpp(107,7): warning C4101: 'n': unreferenced local variable
+﻿  AnimalBase.cpp
+  Arena.cpp
+  Circus.cpp
+  Elephant.cpp
+  GrandCircus.cpp
+  Kangaroo.cpp
+  Lion.cpp
+  Snake.cpp
+  Generating Code...
   GrandCircusC++.vcxproj -> C:\Code\Grand-Circus-oop\C++\GrandCircusC++\x64\Debug\GrandCircusC++.exe

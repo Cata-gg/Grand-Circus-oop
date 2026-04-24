@@ -123,7 +123,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AnimalBase.cpp" />
+    <ClCompile Include="Arena.cpp" />
+    <ClCompile Include="Circus.cpp" />
+    <ClCompile Include="Elephant.cpp" />
     <ClCompile Include="GrandCircus.cpp" />
+    <ClCompile Include="Kangaroo.cpp" />
+    <ClCompile Include="Lion.cpp" />
+    <ClCompile Include="Snake.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimalBase.h" />
+    <ClInclude Include="Arena.h" />
+    <ClInclude Include="Circus.h" />
+    <ClInclude Include="Elephant.h" />
+    <ClInclude Include="IAnimal.h" />
+    <ClInclude Include="Kangaroo.h" />
+    <ClInclude Include="Lion.h" />
+    <ClInclude Include="Snake.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
