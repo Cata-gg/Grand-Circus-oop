@@ -1,0 +1,9 @@
+from abc import ABC, abstractmethod
+
+class IAnimal(ABC):
+    @abstractmethod
+    def get_name(self) -> str: ...
+    @abstractmethod
+    def get_species_name(self) -> str: ...
+    @abstractmethod
+    def make_sound(self) -> str: ...
