@@ -20,7 +20,7 @@ namespace RemoteLearning.GrandCircus
         }
         public  virtual string MakeSound()
         {
-            return "Sound made by the animal: ";
+            return " ";
         }
     }
 }

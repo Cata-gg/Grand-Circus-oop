@@ -18,7 +18,7 @@ namespace RemoteLearning.GrandCircus.Presentation
 
         public void DisplayAnimalPerformance(string performance)
         {
-            Console.WriteLine("-> {0}", performance);
+            Console.WriteLine("-> Sound made by the animal: {0}", performance);
         }
     }
 }

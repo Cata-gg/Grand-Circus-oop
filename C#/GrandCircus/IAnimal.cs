@@ -8,8 +8,8 @@ namespace RemoteLearning.GrandCircus
 {
     internal interface IAnimal 
     {
-        string Name { get; }
-        string SpeciesName { get; }
-        string MakeSound();
+       public string Name { get; }
+       public string SpeciesName { get; }
+       public  string MakeSound();
     }
 }
